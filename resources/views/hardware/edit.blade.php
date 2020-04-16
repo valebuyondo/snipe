@@ -12,7 +12,7 @@
 
 @section('inputFields')
 
-    @include ('partials.forms.edit.company-select', ['translated_name' => trans('general.company'), 'fieldname' => 'company_id'])
+    {{-- @include ('partials.forms.edit.company-select', ['translated_name' => trans('general.company'), 'fieldname' => 'company_id']) --}}
   <!-- Asset Tag -->
   <div class="form-group {{ $errors->has('asset_tag') ? ' has-error' : '' }}">
     <label for="asset_tag" class="col-md-3 control-label">{{ trans('admin/hardware/form.tag') }}</label>

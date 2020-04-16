@@ -18,7 +18,7 @@ return array(
     'last_login'        => 'Last Login',
     'ldap_config_text'  => 'LDAP configuration settings can be found Admin > Settings. The (optional) selected location will be set for all imported users.',
     'print_assigned'    => 'Print All Assigned',
-    'software_user'     => 'Software Checked out to :name',
+    // 'software_user'     => 'Software Checked out to :name',
     'view_user'         => 'View User :name',
     'usercsv'           => 'CSV file',
     'two_factor_admin_optin_help' => 'Your current admin settings allow selective enforcement of two-factor authentication.  ',

@@ -108,7 +108,7 @@ return array(
 
     ),
 
-    'Accessories' => array(
+    'Machinary/equipment' => array(
         array(
             'permission' => 'accessories.view',
             'label'      => 'View ',
@@ -147,7 +147,7 @@ return array(
         ),
     ),
 
-    'Consumables' => array(
+    'funiture/Consumables' => array(
         array(
             'permission' => 'consumables.view',
             'label'      => 'View',
@@ -181,7 +181,7 @@ return array(
     ),
 
 
-    'Licenses' => array(
+    'IT assets/licences' => array(
         array(
             'permission' => 'licenses.view',
             'label'      => 'View',
@@ -372,59 +372,59 @@ return array(
         ),
     ),
 
-    'Status Labels' => array(
-        array(
-            'permission' => 'statuslabels.view',
-            'label'      => 'View ',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'statuslabels.create',
-            'label'      => 'Create ',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'statuslabels.edit',
-            'label'      => 'Edit  ',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'statuslabels.delete',
-            'label'      => 'Delete ',
-            'note'       => '',
-            'display'    => true,
-        ),
-    ),
+    // 'Status Labels' => array(
+    //     array(
+    //         'permission' => 'statuslabels.view',
+    //         'label'      => 'View ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'statuslabels.create',
+    //         'label'      => 'Create ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'statuslabels.edit',
+    //         'label'      => 'Edit  ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'statuslabels.delete',
+    //         'label'      => 'Delete ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    // ),
 
-    'Custom Fields' => array(
-        array(
-            'permission' => 'customfields.view',
-            'label'      => 'View',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'customfields.create',
-            'label'      => 'Create',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'customfields.edit',
-            'label'      => 'Edit',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'customfields.delete',
-            'label'      => 'Delete',
-            'note'       => '',
-            'display'    => true,
-        ),
-    ), 
+    // 'Custom Fields' => array(
+    //     array(
+    //         'permission' => 'customfields.view',
+    //         'label'      => 'View',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'customfields.create',
+    //         'label'      => 'Create',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'customfields.edit',
+    //         'label'      => 'Edit',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'customfields.delete',
+    //         'label'      => 'Delete',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    // ), 
 
     'Suppliers' => array(
         array(
@@ -481,32 +481,32 @@ return array(
         ),
     ),
 
-    'Depreciations' => array(
-        array(
-            'permission' => 'depreciations.view',
-            'label'      => 'View ',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'depreciations.create',
-            'label'      => 'Create ',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'depreciations.edit',
-            'label'      => 'Edit  ',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'depreciations.delete',
-            'label'      => 'Delete ',
-            'note'       => '',
-            'display'    => true,
-        ),
-    ),
+    // 'Depreciations' => array(
+    //     array(
+    //         'permission' => 'depreciations.view',
+    //         'label'      => 'View ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'depreciations.create',
+    //         'label'      => 'Create ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'depreciations.edit',
+    //         'label'      => 'Edit  ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'depreciations.delete',
+    //         'label'      => 'Delete ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    // ),
 
     'Locations' => array(
         array(
@@ -535,59 +535,59 @@ return array(
         ),
     ),
 
-    'Companies' => array(
-        array(
-            'permission' => 'companies.view',
-            'label'      => 'View ',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'companies.create',
-            'label'      => 'Create ',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'companies.edit',
-            'label'      => 'Edit  ',
-            'note'       => '',
-            'display'    => true,
-        ),
-        array(
-            'permission' => 'companies.delete',
-            'label'      => 'Delete ',
-            'note'       => '',
-            'display'    => true,
-        ),
-    ),
+    // 'Companies' => array(
+    //     array(
+    //         'permission' => 'companies.view',
+    //         'label'      => 'View ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'companies.create',
+    //         'label'      => 'Create ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'companies.edit',
+    //         'label'      => 'Edit  ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    //     array(
+    //         'permission' => 'companies.delete',
+    //         'label'      => 'Delete ',
+    //         'note'       => '',
+    //         'display'    => true,
+    //     ),
+    // ),
 
 
 
 
-    'Self' => array(
-        array(
-            'permission' => 'self.two_factor',
-            'label'      => 'Two-Factor Authentication',
-            'note'       => 'The user may disable/enable two-factor authentication themselves if two-factor is enabled and set to selective.',
-            'display'    => true,
-        ),
+    // 'Self' => array(
+    //     array(
+    //         'permission' => 'self.two_factor',
+    //         'label'      => 'Two-Factor Authentication',
+    //         'note'       => 'The user may disable/enable two-factor authentication themselves if two-factor is enabled and set to selective.',
+    //         'display'    => true,
+    //     ),
 
-        array(
-            'permission' => 'self.api',
-            'label'      => 'Create API Keys',
-            'note'       => 'The user create personal API keys to utilize the REST API.',
-            'display'    => true,
-        ),
+    //     array(
+    //         'permission' => 'self.api',
+    //         'label'      => 'Create API Keys',
+    //         'note'       => 'The user create personal API keys to utilize the REST API.',
+    //         'display'    => true,
+    //     ),
 
-        array(
-            'permission' => 'self.edit_location',
-            'label'      => 'Profile Edit Location',
-            'note'       => 'The user may update their own location in their profile. Note that this is not affected by any additional Users permissions you grant to this user or group.',
-            'display'    => true,
-        ),
+    //     array(
+    //         'permission' => 'self.edit_location',
+    //         'label'      => 'Profile Edit Location',
+    //         'note'       => 'The user may update their own location in their profile. Note that this is not affected by any additional Users permissions you grant to this user or group.',
+    //         'display'    => true,
+    //     ),
 
-    ),
+    // ),
 
 
 

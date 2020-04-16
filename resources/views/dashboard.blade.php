@@ -101,7 +101,7 @@
         <div class="col-md-12">
             <div class="box">
                 <div class="box-header with-border">
-                    <h3 class="box-title">This is your dashboard. There are many like it, but this one is yours.</h3>
+                    <!-- <h3 class="box-title">This is your dashboard. There are many like it, but this one is yours.</h3> -->
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">
@@ -115,8 +115,8 @@
                             </div>
 
 
-                            <p><strong>It looks like you haven't added anything yet, so we don't have anything awesome to display. Get started by adding some assets, accessories, consumables, or licenses now!</strong></p>
-
+                            <!-- <p><strong>It looks like you haven't added anything yet, so we don't have anything awesome to display. Get started by adding some assets, accessories, consumables, or licenses now!</strong></p>
+ -->
                         </div>
                     </div> --}}
                     {{-- <div class="row">

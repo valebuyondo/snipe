@@ -209,18 +209,18 @@
                 </div>
 
                 <!-- Company -->
-                @if (\App\Models\Company::canManageUsersCompanies())
+                {{-- @if (\App\Models\Company::canManageUsersCompanies())
                     @include ('partials.forms.edit.company-select', ['translated_name' => trans('general.select_company'), 'fieldname' => 'company_id'])
-                @endif
+                @endif --}}
 
                 <!-- language -->
-                <div class="form-group {{ $errors->has('locale') ? 'has-error' : '' }}">
+                {{-- <div class="form-group {{ $errors->has('locale') ? 'has-error' : '' }}">
                   <label class="col-md-3 control-label" for="locale">{{ trans('general.language') }}</label>
                   <div class="col-md-8">
                     {!! Form::locales('locale', Input::old('locale', $user->locale), 'select2') !!}
                     {!! $errors->first('locale', '<span class="alert-msg">:message</span>') !!}
                   </div>
-                </div>
+                </div> --}}
 
                 <!-- Employee Number -->
                 <div class="form-group {{ $errors->has('employee_num') ? 'has-error' : '' }}">
@@ -255,7 +255,7 @@
 
 
                 <!-- Manager -->
-              @include ('partials.forms.edit.user-select', ['translated_name' => trans('admin/users/table.manager'), 'fieldname' => 'manager_id'])
+              {{-- @include ('partials.forms.edit.user-select', ['translated_name' => trans('admin/users/table.manager'), 'fieldname' => 'manager_id']) --}}
 
                   <!--  Department -->
               @include ('partials.forms.edit.department-select', ['translated_name' => trans('general.department'), 'fieldname' => 'department_id'])
@@ -274,13 +274,13 @@
                 </div>
 
                   <!-- Website URL -->
-                  <div class="form-group {{ $errors->has('website') ? ' has-error' : '' }}">
+                  {{-- <div class="form-group {{ $errors->has('website') ? ' has-error' : '' }}">
                       <label for="website" class="col-md-3 control-label">{{ trans('general.website') }}</label>
                       <div class="col-md-8">
                           <input class="form-control" type="text" name="website" id="website" value="{{ Input::old('website', $user->website) }}" />
                           {!! $errors->first('website', '<span class="alert-msg"><i class="fa fa-times"></i> :message</span>') !!}
                       </div>
-                  </div>
+                  </div> --}}
 
                   <!-- Address -->
                   <div class="form-group{{ $errors->has('address') ? ' has-error' : '' }}">
@@ -292,40 +292,40 @@
                   </div>
 
                   <!-- City -->
-                  <div class="form-group{{ $errors->has('city') ? ' has-error' : '' }}">
+                  {{-- <div class="form-group{{ $errors->has('city') ? ' has-error' : '' }}">
                       <label class="col-md-3 control-label" for="city">{{ trans('general.city') }}</label>
                       <div class="col-md-4">
                           <input class="form-control" type="text" name="city" id="city" value="{{ Input::old('city', $user->city) }}" />
                           {!! $errors->first('city', '<span class="alert-msg">:message</span>') !!}
                       </div>
-                  </div>
+                  </div> --}}
 
                   <!-- State -->
-                  <div class="form-group{{ $errors->has('state') ? ' has-error' : '' }}">
+                  {{-- <div class="form-group{{ $errors->has('state') ? ' has-error' : '' }}">
                       <label class="col-md-3 control-label" for="state">{{ trans('general.state') }}</label>
                       <div class="col-md-4">
                           <input class="form-control" type="text" name="state" id="state" value="{{ Input::old('state', $user->state) }}" maxlength="3" />
                           {!! $errors->first('state', '<span class="alert-msg">:message</span>') !!}
                       </div>
-                  </div>
+                  </div> --}}
 
                   <!-- Country -->
-                  <div class="form-group{{ $errors->has('country') ? ' has-error' : '' }}">
+                  {{-- <div class="form-group{{ $errors->has('country') ? ' has-error' : '' }}">
                       <label class="col-md-3 control-label" for="city">{{ trans('general.country') }}</label>
                       <div class="col-md-4">
                           {!! Form::countries('country', Input::old('country', $user->country), 'select2') !!}
                           {!! $errors->first('country', '<span class="alert-msg">:message</span>') !!}
                       </div>
-                  </div>
+                  </div> --}}
 
                   <!-- Zip -->
-                  <div class="form-group{{ $errors->has('zip') ? ' has-error' : '' }}">
+                  {{-- <div class="form-group{{ $errors->has('zip') ? ' has-error' : '' }}">
                       <label class="col-md-3 control-label" for="zip">{{ trans('general.zip') }}</label>
                       <div class="col-md-4">
                           <input class="form-control" type="text" name="zip" id="zip" value="{{ Input::old('zip', $user->zip) }}" maxlength="10" />
                           {!! $errors->first('zip', '<span class="alert-msg">:message</span>') !!}
                       </div>
-                  </div>
+                  </div> --}}
 
 
 
@@ -416,7 +416,7 @@
                 </div>
 
                   <!-- Groups -->
-                  <div class="form-group{{ $errors->has('groups') ? ' has-error' : '' }}">
+                  {{-- <div class="form-group{{ $errors->has('groups') ? ' has-error' : '' }}">
                       <label class="col-md-3 control-label" for="groups"> {{ trans('general.groups') }}</label>
                       <div class="col-md-5">
 
@@ -454,7 +454,7 @@
                           @endif
 
                       </div>
-                  </div>
+                  </div> --}}
 
 
                 <!-- Email user -->
